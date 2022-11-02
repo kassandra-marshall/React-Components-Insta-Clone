@@ -38,9 +38,10 @@ const App = () => {
         return post
       }
     })
+    setPosts(updatedPosts);
   };
 
-  setPosts(updatedPosts);
+ 
 
   return (
     <div className='App'>
